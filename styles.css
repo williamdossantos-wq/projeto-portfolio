@@ -3,15 +3,15 @@
     padding:0;
 }
 #navbar{
-    background-color:;
+    background-color:#990033;
     width:100%;
     height:100px;
     position:fixed;
 }
 #welcome-section{
     display:flex;
-    background-color:blue;
-    height: 100vw;
+    background-color:#000066;
+    height: 800px;
     width:100%; 
     justify-content:center;
     align-items: center;
@@ -21,22 +21,32 @@ h1{
    position:absolute;
     top:300px;
 }
+
 #projects{
-    height: 100vw;
+    height:100%;
     width:100%;
-  
+   background-color:#9933ff;
+}
+h2{
+ 
+}
+a { 
+    
+  width:500px;
+  height:500px;
+}
+img{
+  display:block;
+  width:500px;
+  object-fit: cover;
+}
+footer{
+  background-color: #000066;
+  width: 100%;
+  height: 200px;
 }
 @media(max-width:1220px){
     html{}
   }
-  a { 
-    
-    width:500px;
-    height:500px;
-  }
-  img{
-    display:block;
-    width:500px;
-    object-fit: cover;
-  }
+  
   
