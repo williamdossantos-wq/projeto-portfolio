@@ -3,48 +3,64 @@
     padding:0;
 }
 #navbar{
-    background-color:#990033;
+    background-color:#d95f18;
     width:100%;
     height:100px;
     position:fixed;
 }
+a{
+  text-decoration:none ;
+}
+/*navegação*/
 #welcome-section{
     display:flex;
-    background-color:#000066;
     height: 800px;
     width:100%; 
     justify-content:center;
-    align-items: center;
-
+    align-items:center;
+    flex-direction: column;
 }
-h1{
-   position:absolute;
-    top:300px;
+#welcome-section h1, p , a{
+ color:white;
 }
-
+/*boas vindas*/
 #projects{
-    height:100%;
-    width:100%;
-   background-color:#9933ff;
+   background-color:#2b46c2;
+   text-align: center;
+   padding: 10rem 2rem;
+   width:100%;
+   height:1200px;
 }
-h2{
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  grid-gap: 2em;
+  width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.project-tile{
+  display: block;
  
 }
-a { 
-    
-  width:500px;
-  height:500px;
-}
+h2{}
 img{
-  display:block;
+ 
   width:500px;
+  height: 500px;
   object-fit: cover;
 }
+/*conteudo*/
 footer{
-  background-color: #000066;
+  
   width: 100%;
   height: 200px;
 }
+footer ,#welcome-section {
+  background-color:#170724;
+}
+/*radape*/
 @media(max-width:1220px){
     html{}
   }
